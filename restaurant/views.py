@@ -1,19 +1,12 @@
-from rest_framework.response import Response
-from rest_framework.decorators import api_view
-from django.shortcuts import get_object_or_404
+from rest_framework import generics
 from .serializers import *
-# Create your views here.
-# def index(request):
-#    return render(request, 'index.html', {})
+from .models import *
 
-@api_view(['GET'])
-def menu_items(request):
-    all_items = Menu.objects.all()
-    serialized_items = MenuItemSerializer(all_items, many=True)
-    return Response(serialized_items.data)
+# Create your views here. 
+class MenuItemsView(generics.ListCreateAPIView):
+    queryset = MenuItem.objects.all()
+    serializer_class = MenuItemSerializer
 
-@api_view(['GET'])
-def menu_item(request, id):
-    item = get_object_or_404(Menu, pk=id)
-    serialized_item = MenuItemSerializer(item)
-    return Response(serialized_item.data)
+class MenuItemDetailView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = MenuItem.objects.all()
+    serializer_class = MenuItemSerializer
