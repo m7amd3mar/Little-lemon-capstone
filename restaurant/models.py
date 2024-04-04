@@ -9,7 +9,7 @@ class Booking(models.Model):
     def __str__(self):
         return self.name
 
-class Menu(models.Model):
+class MenuItem(models.Model):
     dish = models.CharField(max_length=50)
     price = models.DecimalField(max_digits=5, decimal_places=2)
     inventory = models.IntegerField()
