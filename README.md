@@ -6,4 +6,9 @@ Throughout this project, I've explored various aspects of back-end development, 
 
 Thanks for taking the time to review this project! My hope is that it sparks inspiration and provides helpful guidance for other aspiring back-end developers as they navigate their own paths in the exciting world of software development.
 
+## Content Guide 🗺️
+
+▷ Feel free to navigate around using the content button located in the top right corner—it's a breeze for moving through the content.
+
+
 
