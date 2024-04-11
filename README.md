@@ -14,6 +14,7 @@ Thanks for taking the time to review this project! My hope is that it sparks ins
 
 ▷ The API app comes with a total of 4 endpoints, plus you'll find Djoser endpoints ready to use as well.
 
+-Check out all the menu items or craft a unique addition
 ```
 http://127.0.0.1:8000/api/menu/items
 ```
@@ -23,9 +24,9 @@ http://127.0.0.1:8000/api/menu/items
 | GET    | Retrieve all menu items | No         | 200         |
 | POST   | Create a menu item      | No         | 201         |
 
+-Discover, update, partially modify, or bid farewell to that special dish
 ```
 http://127.0.0.1:8000/api/menu/items/{itemId}
-
 ```
 
 | Method | Action                              | TOKEN AUTH | STATUS CODE |
@@ -35,6 +36,7 @@ http://127.0.0.1:8000/api/menu/items/{itemId}
 | PATCH  | Partially update the menu item      | No         | 200         |
 | DELETE | Delete the menu item                | No         | 200         |
 
+-Explore, update, partially adjust, or remove that special table
 ```
 http://127.0.0.1:8000/api/booking/tables
 ```
@@ -45,6 +47,7 @@ http://127.0.0.1:8000/api/booking/tables
 | POST   | Create a booking          | Yes        | 201         |
 
 
+-Check it out, update, partially modify, or bid farewell to that one special table
 ```
 http://127.0.0.1:8000/api/booking/tables/{bookingId}
 ```
