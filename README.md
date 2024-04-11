@@ -10,7 +10,7 @@ Thanks for taking the time to review this project! My hope is that it sparks ins
 
 ▷ Feel free to navigate around using the content button located in the top right corner—it's a breeze for moving through the content.
 
-## API Endpoints testing
+## API Endpoints testing 🔄 
 
 ▷ The API app comes with a total of 4 endpoints, plus you'll find Djoser endpoints ready to use as well.
 
@@ -58,7 +58,7 @@ http://127.0.0.1:8000/api/booking/tables/{bookingId}
 | PATCH  | Partially update the booking  | Yes        | 200         |
 | DELETE | Delete the booking            | Yes        | 200         |
 
-## Peer review
+## Peer review 🧐
 
 ▷ I've got a couple of folks looking over my code, and before they grade it, they're checking out things like:
 

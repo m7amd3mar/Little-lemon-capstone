@@ -19,11 +19,12 @@ from django.urls import path, include
 from rest_framework import routers
 from restaurant import views
 from rest_framework.authtoken.views import obtain_auth_token
-
+from restaurant.views import index
 router = routers.DefaultRouter()
 router.register(r'tables', views.BookingViewSet)
 
 urlpatterns = [
+    path('', index),
     path('admin/', admin.site.urls),
     path('api/menu/', include('restaurant.urls')),
     path('api/booking/', include(router.urls)),
