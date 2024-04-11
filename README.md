@@ -10,11 +10,11 @@ Thanks for taking the time to review this project! My hope is that it sparks ins
 
 ▷ Feel free to navigate around using the content button located in the top right corner—it's a breeze for moving through the content.
 
-## API Endpoints
+## API Endpoints testing
 
 ▷ The API app comes with a total of 4 endpoints, plus you'll find Djoser endpoints ready to use as well.
 
--Check out all the menu items or craft a unique addition
+- Check out all the menu items or craft a unique addition
 ```
 http://127.0.0.1:8000/api/menu/items
 ```
@@ -24,39 +24,48 @@ http://127.0.0.1:8000/api/menu/items
 | GET    | Retrieve all menu items | No         | 200         |
 | POST   | Create a menu item      | No         | 201         |
 
--Discover, update, partially modify, or bid farewell to that special dish
+- Discover, update, partially modify, or bid farewell to that special dish
 ```
 http://127.0.0.1:8000/api/menu/items/{itemId}
 ```
 
-| Method | Action                              | TOKEN AUTH | STATUS CODE |
-|--------|-------------------------------------|------------|-------------|
-| GET    | Retrieves the menu item details     | No         | 200         |
-| PUT    | Update the menu item                | No         | 200         |
-| PATCH  | Partially update the menu item      | No         | 200         |
-| DELETE | Delete the menu item                | No         | 200         |
+| Method | Action                           | TOKEN AUTH | STATUS CODE |
+|--------|----------------------------------|------------|-------------|
+| GET    | Retrieves the menu item details  | No         | 200         |
+| PUT    | Update the menu item             | No         | 200         |
+| PATCH  | Partially update the menu item   | No         | 200         |
+| DELETE | Delete the menu item             | No         | 200         |
 
--Explore, update, partially adjust, or remove that special table
+- Explore, update, partially adjust, or remove that special table
 ```
 http://127.0.0.1:8000/api/booking/tables
 ```
 
-| Method | Action                    | TOKEN AUTH | STATUS CODE |
-|--------|---------------------------|------------|-------------|
-| GET    | Retrieve all bookings     | Yes        | 200         |
-| POST   | Create a booking          | Yes        | 201         |
+| Method | Action                 | TOKEN AUTH | STATUS CODE |
+|--------|------------------------|------------|-------------|
+| GET    | Retrieve all bookings  | Yes        | 200         |
+| POST   | Create a booking       | Yes        | 201         |
 
-
--Check it out, update, partially modify, or bid farewell to that one special table
+- Check it out, update, partially modify, or bid farewell to that one special table
 ```
 http://127.0.0.1:8000/api/booking/tables/{bookingId}
 ```
 
-| Method | Action                             | TOKEN AUTH | STATUS CODE |
-|--------|------------------------------------|------------|-------------|
-| GET    | Retrieve the booking details       | Yes        | 200         |
-| PUT    | Update the booking                 | Yes        | 200         |
-| PATCH  | Partially update the booking       | Yes        | 200         |
-| DELETE | Delete the booking                 | Yes        | 200         |
+| Method | Action                        | TOKEN AUTH | STATUS CODE |
+|--------|-------------------------------|------------|-------------|
+| GET    | Retrieve the booking details  | Yes        | 200         |
+| PUT    | Update the booking            | Yes        | 200         |
+| PATCH  | Partially update the booking  | Yes        | 200         |
+| DELETE | Delete the booking            | Yes        | 200         |
 
+## Peer review
 
+▷ I've got a couple of folks looking over my code, and before they grade it, they're checking out things like:
+
+- Did I use Django to dish out those web pages?
+- Did I stash Ir project in a Git repo?
+- Does Ir app link up the backend with MySQL?
+- Did I hook up those menu and table booking APIs?
+- Have I set things up so folks can sign up and log in?
+- Did I write some unit tests for your app?
+- And can someone fire up Insomnia and give your API a spin?
