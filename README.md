@@ -10,5 +10,23 @@ Thanks for taking the time to review this project! My hope is that it sparks ins
 
 ▷ Feel free to navigate around using the content button located in the top right corner—it's a breeze for moving through the content.
 
+## API Endpoints
 
+▷ The API app comes with a total of 4 endpoints, plus you'll find Djoser endpoints ready to use as well.
+
+```
+http:127.0.0.1:8000/api/menu/items
+```
+
+```
+http:127.0.0.1:8000/api/menu/items/{itemId}
+```
+
+```
+http:127.0.0.1:8000/api/booking/tables
+```
+
+```
+http:127.0.0.1:8000/api/bookings/tables/{bookingId}
+```
 
