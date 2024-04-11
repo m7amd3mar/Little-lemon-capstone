@@ -74,7 +74,7 @@ http://127.0.0.1:8000/api/booking/tables/{bookingId}
 ▷ There's always room for improvement, and I'm steadily climbing towards that perfect score of 100%.
 
 ### Starting the Project
-![Module #1](https://github.com/mistersouza/cliphub/blob/main/static/img/grades/capstone_grad_module#1.png)
+![Module #1](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%231.png)
 
 ### Project Functionality
-![Module #1](https://github.com/mistersouza/cliphub/blob/static/img/grades/capstone_grad_module#2.png)
+![Module #1](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%232.png)
