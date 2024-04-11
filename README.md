@@ -77,4 +77,10 @@ http://127.0.0.1:8000/api/booking/tables/{bookingId}
 ![Module #1](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%231.png)
 
 ### Project Functionality
-![Module #1](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%232.png)
+![Module #2](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%232.png)
+
+### Security and Testing
+![Module #3](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%233.png)
+
+### Final Graded Assessment
+![Final Assessment](https://github.com/mistersouza/little-lemon/blob/main/static/img/grades/capstone_grad_module%234.png)
