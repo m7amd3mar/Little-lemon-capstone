@@ -69,3 +69,12 @@ http://127.0.0.1:8000/api/booking/tables/{bookingId}
 - Have I set things up so folks can sign up and log in?
 - Did I write some unit tests for your app?
 - And can someone fire up Insomnia and give your API a spin?
+
+## Grades
+▷ There's always room for improvement, and I'm steadily climbing towards that perfect score of 100%.
+
+### Starting the Project
+![Module #1](https://github.com/mistersouza/cliphub/blob/main/static/img/grades/capstone_grad_module#1.png)
+
+### Project Functionality
+![Module #1](https://github.com/mistersouza/cliphub/blob/static/img/grades/capstone_grad_module#2.png)
